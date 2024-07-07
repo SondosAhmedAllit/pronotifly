@@ -1,0 +1,73 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "prompt",
+ "creation": "2024-05-03 15:23:10.598502",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "section_break_gqei",
+  "select_doctype",
+  "column_break_fast",
+  "section_break_vrko",
+  "filter_list",
+  "fields_multicheck"
+ ],
+ "fields": [
+  {
+   "fieldname": "select_doctype",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Select Doctype",
+   "options": "DocType",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_fast",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_vrko",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "filter_list",
+   "fieldtype": "HTML",
+   "label": "Filter List"
+  },
+  {
+   "fieldname": "fields_multicheck",
+   "fieldtype": "HTML",
+   "label": "Fields Multicheck"
+  },
+  {
+   "fieldname": "section_break_gqei",
+   "fieldtype": "Section Break"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-05-09 11:29:16.058305",
+ "modified_by": "Administrator",
+ "module": "ProNotifly",
+ "name": "Group_",
+ "naming_rule": "Set by user",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

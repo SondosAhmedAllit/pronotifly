@@ -1,0 +1,88 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-05-30 20:25:30.030551",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "group_type",
+  "link",
+  "column_break_uyky",
+  "name_group",
+  "column_break_ejqj",
+  "mobile",
+  "column_break_ezcm",
+  "id",
+  "column_break_ifux",
+  "email"
+ ],
+ "fields": [
+  {
+   "fieldname": "id",
+   "fieldtype": "Read Only",
+   "in_list_view": 1,
+   "label": "ID"
+  },
+  {
+   "fieldname": "column_break_uyky",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "column_break_ifux",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "email",
+   "fieldtype": "Read Only",
+   "in_list_view": 1,
+   "label": "Email"
+  },
+  {
+   "fieldname": "column_break_ejqj",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "group_type",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Group Type",
+   "options": "DocType"
+  },
+  {
+   "fieldname": "link",
+   "fieldtype": "Dynamic Link",
+   "in_list_view": 1,
+   "label": "Link",
+   "options": "group_type"
+  },
+  {
+   "fieldname": "name_group",
+   "fieldtype": "Read Only",
+   "in_list_view": 1,
+   "label": "Name"
+  },
+  {
+   "fieldname": "mobile",
+   "fieldtype": "Read Only",
+   "in_list_view": 1,
+   "label": "Mobile"
+  },
+  {
+   "fieldname": "column_break_ezcm",
+   "fieldtype": "Column Break"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2024-06-23 19:28:21.461403",
+ "modified_by": "Administrator",
+ "module": "Notify Group",
+ "name": "Notify Information",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
